@@ -1,15 +1,28 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-const Layout = ({ children }) => {
-    console.log(children)
+// Components
+import Header from '../components/Header'
+
+// Styles
+import '../styles/global/global.scss'
+
+const Layout = (props) => {
+    console.log(props)
+
+    const {children, header, footer} = props
+
     return (
         <>
-            <header>This is my header</header>
-            <h1>This is our Layout</h1>
+            {header && <Header/> }
             {children}
-            <footer>This is my Buttholes</footer>
+            {footer && <footer>This is my footer</footer> }
         </>
     )
+}
+
+Layout.propTypes = {
+    header: PropTypes.bool.isRequired
 }
 
 export default Layout
