@@ -1,0 +1,6 @@
+@function space($int: 1) {
+  @if type-of($int) != 'number' {
+    @error 'Property #{$int} must be an integer';
+  }
+  @return $int * 8px;
+}

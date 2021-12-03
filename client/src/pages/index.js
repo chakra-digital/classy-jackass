@@ -7,7 +7,7 @@ import Block from "@sanity/block-content-to-react"
 import Layout from '../components/Layout'
 
 // Styles
-import * as styles from '../styles/modules/Home.module.scss'
+import * as styles from '../styles/modules/pages/Home.module.scss'
 
 const Home = ({ data }) => {
   console.log(data)
@@ -17,8 +17,8 @@ const Home = ({ data }) => {
 
   return (
     <Layout header footer>
-      <h1>hello</h1>
-      <h2>how are you</h2>
+      <h1>Hello</h1>
+      <h2>How are you</h2>
     </Layout>
   )
 }

@@ -1,0 +1,13 @@
+@import 'core';
+
+.wrapper {
+  // mobile styles go header
+
+  @include breakpoint('tablet') {
+    // tablet styles go here
+  }
+
+  @include breakpoint('desktop') {
+    // desktop styles go here
+  }
+}

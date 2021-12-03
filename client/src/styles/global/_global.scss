@@ -1,0 +1,18 @@
+@import 'core';
+
+/**********************************************
+ Global Styles
+**********************************************/
+
+body {
+  font-family: $body-font;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $color__black;
+  background: #fff;
+}
+
+button {
+  border: none;
+}

@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 import Header from '../components/Header'
 
 // Styles
-import '../styles/global/global.scss'
+import '../styles/global/index.scss'
 
 const Layout = (props) => {
     console.log(props)

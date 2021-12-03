@@ -1,0 +1,23 @@
+.chevron-arrow-right:after {
+  content: '';
+  display: inline-block;
+  border-right: 2px solid $color__black;
+  border-bottom: 2px solid $color__black;
+  width: 6px;
+  height: 6px;
+  transform: rotate(45deg) translateY(-3px);
+  margin-left: 5px;
+}
+
+.absolute-0 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+// Text Utils
+.text-center {
+  text-align: center;
+}

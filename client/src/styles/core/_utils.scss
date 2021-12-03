@@ -1,0 +1,17 @@
+@use 'sass:math';
+
+@mixin absolute-0 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@mixin focus-ring-shadow {
+  box-shadow: 0 0 0 4px $focus-ring;
+}
+
+@function percentage($num, $denom) {
+  @return math.percentage(math.div($num, $denom));
+}

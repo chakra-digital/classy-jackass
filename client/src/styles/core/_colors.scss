@@ -1,0 +1,21 @@
+// Blacks
+$color__black: #000;
+
+// Primary
+$color__primary: rgb(200, 0, 255);
+
+// Secondary
+$color__secondary: #f40909;
+
+// Status
+$color__status--error: #f24444;
+$color__status--success: #43c276;
+$color__status--warning: #f0c91f;
+
+// Utility
+$focus-ring: rgba(#8ab5ff, 0.4);
+
+// Gradients
+@mixin primary-gradient() {
+  background: linear-gradient(45deg, $color__primary, $color__secondary);
+}
