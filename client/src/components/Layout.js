@@ -6,6 +6,7 @@ import Header from '../components/Header'
 
 // Styles
 import '../styles/global/index.scss'
+import './layout.scss'
 
 const Layout = (props) => {
     console.log(props)

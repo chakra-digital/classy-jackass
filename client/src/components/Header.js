@@ -5,15 +5,17 @@ import { Link } from 'gatsby'
 // SVG
 import LogoInline from '../images/svg/innerbrand.inline.svg'
 
+// styles
+import * as styles from "../styles/modules/Header.module.scss"
 
-const Header = props => {
+const Header = (props) => {
     return (
-        <header>
-            <LogoInline className='logo'/>
+        <header className={styles.header}>
+            <LogoInline className={styles.logo}/>
             
-            <nav>
-                <Link to='/'>Home</Link>   
-                <Link to='/about'>About</Link>   
+            <nav className={styles.nav}>
+                <Link className={styles.navItem} to='/'>Home</Link>   
+                <Link className={styles.navItem} to='/about'>About</Link>   
             </nav>
         </header>
     )

@@ -1,0 +1,23 @@
+@import 'core';
+
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  // background: gray;
+  padding: 0 space(3);
+}
+
+.nav {
+  padding: 10px;
+}
+
+.navItem {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  background: violet;
+  margin-left: 12px;
+}
