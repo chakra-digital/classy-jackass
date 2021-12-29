@@ -15,7 +15,7 @@ const Header = (props) => {
     return (
         <header className={styles.header}>
             <LogoInline className={styles.logo}/>
-            <button onClick={clickMe}>Activate Lasers</button>
+            <button onClick={clickMe}>Activate The Lasers</button>
             <nav className={styles.nav}>
                 <Link className={styles.navItem} to='/'>Home</Link>   
                 <Link className={styles.navItem} to='/about'>About</Link>   
