@@ -17,7 +17,7 @@ const Home = ({ data }) => {
 
   return (
     <Layout header footer>
-      <h1>Hello</h1>
+      <h1>Hello, Classy Jackass</h1>
       <h2>How are you</h2>
     </Layout>
   )
